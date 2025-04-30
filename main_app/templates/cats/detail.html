@@ -120,7 +120,7 @@
 
     <h3>Available Toys</h3>
     <div class="subsection-content">
-      <!-- {% for toy in toys %} -->
+      {% comment %} {% for toy in toys %}  {% endcomment %}
       {% if toys.count %}
         {% for toy in toys.all %}
       <div class="toy-container">
